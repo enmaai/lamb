@@ -4,12 +4,33 @@
     <meta charset="UTF-8">
     <title>lamb</title>
     <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/zepto.js"></script>
 </head>
 <body>
 <div id="page">
     <div id="main">
-        main
+        <div class="cloud1">cloud</div>
+        <div class="cloud2">cloud</div>
+        <div class="title">the lamb project</div>
+        <div class="sub-title">lamb present</div>
     </div>
 </div>
+<script>
+    $('.cloud1').animate({
+        left : 0
+    },2000,'linear');
+    $('.cloud2').animate({
+        left : 700
+    },2000,'linear');
+    setTimeout(function(){
+       $('.title').animate({
+            opacity : 1
+        },3000);
+        $('.sub-title').animate({
+            opacity : 1
+        },3000); 
+    },1000);
+    
+</script>
 </body>
 </html>

@@ -1,3 +1,7 @@
 html,body{margin:0;padding:0;}
 #page{width:100vw;height:100vh;background:#f0f0f0;}
-#main{width:800px;height:600px;border:1px solid #f60;margin:0 auto;}
+#main{width:800px;height:600px;border:1px solid #f60;margin:0 auto;position:relative;}
+.cloud1,.cloud2{position:absolute;z-index:1;width:100px;height:100px;background:#404040;top:100px;}
+.cloud1{left:300px;}
+.cloud2{left:400px;}
+.title,.sub-title{border:5px solid #0f0f0f;border-radius:5px;width:400px;padding:50px;margin:50px auto;opacity:0;}
