@@ -7,30 +7,26 @@
     <script src="assets/js/zepto.js"></script>
 </head>
 <body>
-<div id="page">
-    <div id="main">
+<div id="page" style="display:none;">
+    <div id="welcome" class="panel">
         <div class="cloud1">cloud</div>
         <div class="cloud2">cloud</div>
         <div class="title">the lamb project</div>
         <div class="sub-title">lamb present</div>
     </div>
+    <div id="menu" class="panel" style="display:none;">
+        <ul>
+            <li class="start">Start</li>
+            <li class="select">select other animals</li>
+            <li class="buy">Buy more animals</li>
+            <li class="auto">Autoplay</li>
+            <li class="about">About us</li>
+        </ul>
+    </div>
+    <div id="act1" class="panel" style="display:none;"></div>
+    <div id="act2" class="panel" style="display:none;"></div>
+    <div id="act3" class="panel" style="display:none;"></div>
 </div>
-<script>
-    $('.cloud1').animate({
-        left : 0
-    },2000,'linear');
-    $('.cloud2').animate({
-        left : 700
-    },2000,'linear');
-    setTimeout(function(){
-       $('.title').animate({
-            opacity : 1
-        },3000);
-        $('.sub-title').animate({
-            opacity : 1
-        },3000); 
-    },1000);
-    
-</script>
+<script src="assets/js/lamb.js"></script>
 </body>
 </html>

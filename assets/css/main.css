@@ -1,7 +1,24 @@
 html,body{margin:0;padding:0;}
-#page{width:100vw;height:100vh;background:#f0f0f0;}
-#main{width:800px;height:600px;border:1px solid #f60;margin:0 auto;position:relative;}
-.cloud1,.cloud2{position:absolute;z-index:1;width:100px;height:100px;background:#404040;top:100px;}
+#page{width:100%;height:100%;position:relative;}
+.panel{position:absolute;left:0;top:0;width:100%;height:100%;text-align:center;}
+
+/*welcome*/
+#welcome{background:url(../img/foo.jpg) center top;}
+.cloud1,.cloud2{position:absolute;z-index:1;width:100px;height:100px;background:#f60;top:100px;opacity:0.8}
 .cloud1{left:300px;}
-.cloud2{left:400px;}
-.title,.sub-title{border:5px solid #0f0f0f;border-radius:5px;width:400px;padding:50px;margin:50px auto;opacity:0;}
+.cloud2{right:300px;}
+.title{margin:13% auto 0;width:30%;}
+.sub-title{margin:100px auto 0;width:40%;}
+.title,.sub-title{border:10px solid #0f0f0f;border-radius:10px;background:#f0f0f0;font-size:32px;padding:30px;opacity:0;}
+
+/*menu*/
+#menu{background:url(../img/foo1.png) center top;}
+#menu ul{padding-top:5%;width:50%;margin:0 auto;list-style:none;}
+#menu li{border-radius:10px;background:#e0e0e0;font-size:40px;padding:20px;margin-top:20px;}
+
+/*act1*/
+#act1{background:url(../img/foo7.jpg) center top;}
+/*act2*/
+#act2{background:url(../img/foo3.jpg) center top;}
+/*act3*/
+#act3{background:url(../img/foo4.jpg) center top;}
